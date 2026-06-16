@@ -1,0 +1,53 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.card-medico {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card-medico:hover {
+  transform: translateY(-8px);
+}
+
+.foto-medico {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.card-medico h3 {
+  margin-top: 20px;
+  color: #0d47a1;
+  font-size: 1.2rem;
+}
+
+.card-medico p {
+  color: #666;
+  margin: 10px 0 25px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .foto-medico {
+    height: 260px;
+  }
+}
+
+.card-medico {
+  border-top: 5px solid #1976d2;
+}
+
+.card-medico:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,.15);
+}
