@@ -32,3 +32,26 @@
 .navbar a:hover{
   color:#1976d2;
 }
+
+@media (max-width: 768px) {
+
+  .nav-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
+
+  .navbar h2 {
+    font-size: 1.6rem;
+  }
+
+}

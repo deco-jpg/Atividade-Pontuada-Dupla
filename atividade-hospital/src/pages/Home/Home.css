@@ -46,18 +46,30 @@
   font-size:10rem;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
 
-  .hero-content{
-    flex-direction:column;
-    text-align:center;
+  .hero {
+    min-height: auto;
+    padding: 60px 0;
   }
 
-  .hero-text h1{
-    font-size:2.5rem;
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
   }
 
-  .hero-image{
-    font-size:6rem;
+  .hero-text h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
   }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-image {
+    font-size: 4rem;
+  }
+
 }
