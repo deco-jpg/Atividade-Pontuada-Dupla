@@ -6,7 +6,9 @@ function Navbar() {
     <header className="navbar">
       <div className="container nav-content">
 
-        <h2>VidaPlus</h2>
+        <Link to="/" className="logo">
+          VidaPlus
+        </Link>
 
         <nav>
           <ul>
